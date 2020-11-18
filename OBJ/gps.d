@@ -1,0 +1,14 @@
+..\obj\gps.o: ..\HARDWARE\GPS\gps.c
+..\obj\gps.o: ..\HARDWARE\GPS\gps.h
+..\obj\gps.o: ..\SYSTEM\sys\sys.h
+..\obj\gps.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\gps.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\gps.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\gps.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\gps.o: ..\HARDWARE\LED\led.h
+..\obj\gps.o: ..\SYSTEM\delay\delay.h
+..\obj\gps.o: ..\HARDWARE\USART2\usart2.h
+..\obj\gps.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\gps.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\gps.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\gps.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
