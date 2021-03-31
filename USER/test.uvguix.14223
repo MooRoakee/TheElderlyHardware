@@ -1150,7 +1150,7 @@
       <Window>
         <RegID>38007</RegID>
         <PaneID>38007</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
