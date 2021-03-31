@@ -7,8 +7,7 @@
 #include "string.h"
 #include "math.h"
 //////////////
-void usart2_init(){}
-void USART2_init(){}
+
 //////////////////////////////////////////////////////////////////////////////////
 const u32 BAUD_id[9]={4800,9600,19200,38400,57600,115200,230400,460800,921600};
 //从 buf 里面得到第 cx 个逗号所在的位置
@@ -325,7 +324,7 @@ cfg_prt->CS=cfg_prt->id^cfg_prt->com_port^cfg_prt->Baud_id^cfg_prt->Attributes;
 cfg_prt->end=0X0A0D; //发送结束符(小端模式)
 SkyTra_Send_Date((u8*)cfg_prt,sizeof(SkyTra_baudrate));//发送数据给 SkyTraF8
 delay_ms(200); //等待发送完成
-USART2_init(36,BAUD_id[baud_id]); //重新初始化串口 3
+USART2_Init(36,BAUD_id[baud_id]); //重新初始化串口 3
 return SkyTra_Cfg_Ack_Check();
 //这里不会返回 0,因为 SkyTra 发回来的应答在串口重新初始化的时候已经被丢弃了.
 }

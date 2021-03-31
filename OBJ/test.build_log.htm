@@ -3,76 +3,43 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: μVision V5.33.0.0
-Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Mio Roakee, BJTU, LIC=----
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1422323955@qq.com, 1, LIC=4ZLRA-11HX4-8XZUZ-J9ZQJ-BMK3F-T39IL
  
 Tool Versions:
-Toolchain:       MDK-Lite  Version: 5.33.0.0
-Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 7 (build 960)
-Assembler:       Armasm.exe V5.06 update 7 (build 960)
-Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
-Library Manager: ArmAr.exe V5.06 update 7 (build 960)
-Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
-CPU DLL:         SARMCM3.DLL V5.33.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
-Dialog DLL:      TCM.DLL V1.48.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
  
 <h2>Project:</h2>
-C:\Users\14223\Desktop\老弟\扩展实验11 ATK-HC05蓝牙串口模块实验\USER\test.uvprojx
-Project File Date:  11/18/2020
+C:\Users\14223\Desktop\the_eardly_hardware\USER\test.uvprojx
+Project File Date:  03/31/2021
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-assembling startup_stm32f10x_hd.s...
-compiling led.c...
-compiling usart.c...
-compiling delay.c...
-compiling test.c...
-..\HARDWARE\GPS\gps.h(152): warning:  #1-D: last line of file ends without a newline
-  #endif
-test.c(69): warning:  #223-D: function "usart2_init" declared implicitly
-  usart2_init(42,38400); //串口 3 初始化
-test.c(121): warning:  #1-D: last line of file ends without a newline
-  }
-test.c: 3 warnings, 0 errors
-compiling key.c...
-compiling sys.c...
-compiling usart2.c...
-compiling hc05.c...
-compiling usmart_config.c...
-compiling usmart.c...
 compiling gps.c...
-..\HARDWARE\GPS\gps.h(152): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\HARDWARE\GPS\gps.c(328): warning:  #140-D: too many arguments in function call
-  USART2_init(36,BAUD_id[baud_id]); //重新初始化串口 3
-..\HARDWARE\GPS\gps.c(379): warning:  #1-D: last line of file ends without a newline
-  }
-..\HARDWARE\GPS\gps.c: 3 warnings, 0 errors
-compiling usmart_str.c...
-compiling ILI93xx.c...
 linking...
-..\OBJ\test.axf: error: L6050U: The code size of this image (39006 bytes) exceeds the maximum allowed for this version of the linker.
-Finished: 0 information, 0 warning, 0 error and 1 fatal error messages.
-"..\OBJ\test.axf" - 1 Error(s), 6 Warning(s).
+Program Size: Code=38966 RO-data=7194 RW-data=356 ZI-data=3268  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
-Package Vendor: Keil
-                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
-                Keil.STM32F1xx_DFP.2.3.0
-                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
-
 <h2>Collection of Component include folders:</h2>
-  D:\Keil_Pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  .\RTE\_Target_1
 
 <h2>Collection of Component Files used:</h2>
-Target not created.
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
